@@ -1,0 +1,39 @@
+div,
+span,
+article,
+section,
+header,
+main,
+footer,
+p,
+ul,
+li,
+label,
+a,
+nav,
+h1,
+h2,
+h3,
+form,
+input,
+button,
+img,
+textarea,
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: white;
+}
