@@ -15,7 +15,7 @@ class Router {
     this.routing(window.location.pathname);
     window.addEventListener("click", (e) => {
       /**앵커 태그 클릭했을 때 */
-      if (e.target.tagName.toLoserCase() === "a") {
+      if (e.target.tagName.toLowerCase() === "a") {
         e.preventDefault();
         this.routePush(e.target.href);
       }
